@@ -698,11 +698,11 @@ const showStudentInfo = (id) => {
               <div><span>Type :</span> ${type}</div>
   `;
 };
-if (fileName == "admin") {
+if (fileName == "admin" || fileName == "admin.html") {
   getAllStudents();
 }
 
-if (fileName == "admin") {
+if (fileName == "admin" || fileName == "admin.html") {
   studentFrom.onsubmit = (e) => {
     e.preventDefault();
     const modalClose = document.getElementById("modalCloseBtn");
@@ -781,7 +781,7 @@ if (fileName == "admin") {
 
 const searchResultForm = document.getElementById("search-result-form");
 
-if (fileName == "index" || fileName == "") {
+if (fileName == "index" || fileName == "index.html" || fileName == "") {
   document.getElementById(
     "validateLabel"
   ).innerHTML = `${mathTest1} + ${mathTest2}`;
@@ -810,7 +810,7 @@ if (fileName == "index" || fileName == "") {
   };
 }
 
-if (fileName == "result.html") {
+if (fileName == "result.html" || fileName == "result") {
   const getStudentData = () => {
     const printResult = document.querySelector(".show-result");
     const data = showResult();
