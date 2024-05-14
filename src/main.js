@@ -698,7 +698,7 @@ const showStudentInfo = (id) => {
               <div><span>Type :</span> ${type}</div>
   `;
 };
-if (fileName == "admin.html") {
+if (fileName == "admin") {
   getAllStudents();
 }
 
