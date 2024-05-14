@@ -815,7 +815,10 @@ if (fileName == "result.html" || fileName == "result") {
     const printResult = document.querySelector(".show-result");
     const data = showResult();
     if (data.length === 0) {
-      window.location.href = "/index.html";
+      const changeURL = window.location.href.split("/");
+      changeURL.pop();
+      changeURL.push("index.html");
+      window.location.href = changeURL.join("/");
     }
     data.forEach((item) => {
       printResult.innerHTML = `
@@ -892,5 +895,8 @@ if (fileName == "result.html" || fileName == "result") {
 }
 const goToSearch = () => {
   removeSecretKey();
-  window.location.href = "/index.html";
+  const changeURL = window.location.href.split("/");
+  changeURL.pop();
+  changeURL.push("index.html");
+  window.location.href = changeURL.join("/");
 };
