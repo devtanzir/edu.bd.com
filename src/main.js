@@ -806,7 +806,7 @@ if (fileName == "index" || fileName == "index.html" || fileName == "") {
     const changeURL = window.location.href.split("/");
     changeURL.pop();
     changeURL.push("result.html");
-    window.location.href = "/result.html";
+    window.location.href = changeURL.join("/");
   };
 }
 
