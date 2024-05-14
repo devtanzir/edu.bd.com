@@ -702,7 +702,7 @@ if (fileName == "admin") {
   getAllStudents();
 }
 
-if (fileName == "admin.html") {
+if (fileName == "admin") {
   studentFrom.onsubmit = (e) => {
     e.preventDefault();
     const modalClose = document.getElementById("modalCloseBtn");
@@ -781,7 +781,7 @@ if (fileName == "admin.html") {
 
 const searchResultForm = document.getElementById("search-result-form");
 
-if (fileName == "index.html" || fileName == "") {
+if (fileName == "index" || fileName == "") {
   document.getElementById(
     "validateLabel"
   ).innerHTML = `${mathTest1} + ${mathTest2}`;
