@@ -66,7 +66,7 @@ const deleteSingleStudent = (key, id) => {
 const filterResult = (examination, year, board, roll, reg) => {
   const allData = getDataLs("students");
   if (!allData) {
-    return alert("no data found");
+    return false;
   }
 
   const finalData = allData.map((item) => {
