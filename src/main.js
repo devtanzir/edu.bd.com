@@ -782,6 +782,7 @@ if (fileName == "admin" || fileName == "admin.html") {
 const searchResultForm = document.getElementById("search-result-form");
 
 if (fileName == "index" || fileName == "index.html" || fileName == "") {
+  removeSecretKey();
   document.getElementById(
     "validateLabel"
   ).innerHTML = `${mathTest1} + ${mathTest2}`;

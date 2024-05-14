@@ -114,6 +114,7 @@ const showResult = () => {
 
 const removeSecretKey = () => {
   const allData = getDataLs("students");
+  if (!allData) return;
   const updatedData = allData.map((item) => {
     if (item.code) {
       delete item.code;
