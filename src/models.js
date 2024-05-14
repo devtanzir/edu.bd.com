@@ -126,7 +126,7 @@ const removeSecretKey = () => {
 
 const existRoll = (roll) => {
   const allData = getDataLs("students");
-  if (!allData) true;
+  if (!allData) false;
 
   const stdRoll = allData.filter((item) => {
     if (item.roll === roll) {
@@ -141,7 +141,7 @@ const existRoll = (roll) => {
 };
 const existReg = (reg) => {
   const allData = getDataLs("students");
-  if (!allData) true;
+  if (!allData) false;
   const stdReg = allData.filter((item) => {
     if (item.reg === reg) {
       return true;
