@@ -1,0 +1,70 @@
+/* Admin Css */
+.shop-data tr{
+    vertical-align: middle !important;
+  }
+  .single-data img{
+  
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  }
+  i{
+    pointer-events: none;
+  }
+  .modal-dialog {
+    max-width: 600px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.student-info {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.student-info img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 7px;
+  box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+}
+
+.student-info h4 {
+  font-size: 20px;
+}
+
+
+div#student-info img {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 11px;
+}
+
+div#student-info div span {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: black;
+}
+
+div#student-info div {
+  font-size: 16px;
+  color: #666;
+}

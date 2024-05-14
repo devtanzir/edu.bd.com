@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+  }
+  img {
+    max-width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  body{
+    background-color: #EEEEEE;
+  }
+
+  .fw-700{
+    font-weight: 700 !important;
+  }
+
+  .divider {
+    height: 0.5px;
+    width: 100%;
+    background: #ccc;
+}
+  
+  .search-result-section{
+    display: flex;
+    justify-content: center;
+  }
+  .main-container {
+    width: 64rem;
+    height: 56.459rem;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.2);
+}
+.box{
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-bottom: 6px;
+  width: 64rem;
+}
+.box-top {
+  display: flex;
+  border-radius: 10px;
+  gap: 2px;
+}
+.box-top-left {
+  background: #EEEEEE;
+  width: 14.2rem;
+  height: 12.1rem;
+  display: grid;
+  place-items: center;
+  border-radius: 10px 0 0 10px;
+}
+.right-top h4 {
+  font-size: 1.7rem;
+  color: #95e17d;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.right-top {
+  background: #007814;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-top-right {
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+}
+.right-middle {
+  background: #007814;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 7px 5px;
+}
+.right-bottom p {
+  font-size: 1.1rem;
+  color: #fff;
+  text-align: end;
+  cursor: pointer;
+  background-image: url("../img/bar_bk.jpg");
+  padding: 5px 10px;
+}
+.right-bottom p:hover{
+  color: #0c9;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32rem;
+}
+.box-middle {
+  width: 46rem;
+  height: 28rem;
+  border: 2px solid #6c6c6c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-form {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+.input-group label,
+.input-group span{
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 700;
+}
+.input-group label{
+  width: 9.5rem;
+}
+select {
+  background-color: #F4F0F2;
+  border: 1px solid #ddd;
+  width: 22.5rem;
+  padding: 4px;
+  border-radius: 4px;
+}
+input[type="number"]{
+  background-color: #F4F0F2;
+  border: 1px solid #ddd;
+  width: 22.5rem;
+  padding: 4px;
+  border-radius: 4px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.text-uppercase{
+  text-transform: uppercase !important;
+}
+.input-btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+}
+.input-btns input{
+  padding: 0px 5px;
+}
+.footer-divider {
+  background: #86C775;
+  height: 5px;
+}
+
+
+.box-footer {
+  margin-top: 20px;
+  background: #F2F2F2;
+  border-radius: 0 0 10px 10px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 6px;
+}
+
+.footer-text p {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 400;
+}
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-right: 15px;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+}
+td,th{
+  padding: 5px;
+}
+.Information-table tr{
+background-color: #EEEEEE;
+}
+.Show-result-table thead tr{
+  background-color: #AFB7BE;
+  text-align: left;
+}
+.Show-result-table tbody tr{
+  background-color: #EEEEEE;
+}
+.Show-result-table tbody tr:nth-child(even){
+  background-color: #DEE1E4;
+}
+.show-result h4{
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 10px 0;
+  text-align: center;
+}
+.show-result a{
+  margin: 10px 0;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: blue;
+  cursor: pointer;
+  display: block;
+}
+.show-result a:hover{
+  color: #ff0000;
+}
+.Information-table tr:first-child{
+  text-align: end;
+  background-color: #fff;
+}
+.Information-table tr td img{
+width: 100px;
+height: 100px;
+object-fit: cover;
+background-color: #fff;
+border: 5px solid #fff;
+border-radius: 7px;
+box-shadow: 1px 1px 6px rgba(0,0,0,.2);
+}
